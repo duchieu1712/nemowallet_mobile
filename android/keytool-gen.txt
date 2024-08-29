@@ -1,0 +1,20 @@
+# Gen file Keystore
+keytool -genkey -keystore "D:\Source\nemowallet_mobile\android\app\NEMOWalletMobile.keystore" -alias NEMOWalletKey -keyalg RSA
+
+# Run get Hash key Android Facebook
+# Debug - Password android
+keytool -exportcert -alias androiddebugkey -storepass android -keypass android -keystore "D:\Source\nemowallet_mobile\android\app\debug.keystore" | "C:\OpenSSL\bin\openssl" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
+# Release - Password 123456
+keytool -exportcert -alias NEMOWallet -storepass 123456 -keypass 123456 -keystore "D:\Source\nemowallet_mobile\android\app\NEMOWallet.keystore" | "C:\OpenSSL\bin\openssl" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
+# Release - Password android
+keytool -exportcert -alias NEMOWalletKey -storepass android -keypass android -keystore "D:\Source\nemowallet_mobile\android\app\NEMOWalletMobile.keystore" | "C:\OpenSSL\bin\openssl" sha1 -binary |"C:\OpenSSL\bin\openssl" base64
+
+# Run get Hash key Android Google
+# Debug
+keytool -list -v -keystore "D:\Source\nemowallet_mobile\android\app\debug.keystore"
+keytool -list -v -keystore "D:\Source\nemowallet_mobile\android\app\debug.keystore" -alias androiddebugkey -storepass android -keypass android 
+# Release
+keytool -list -v -keystore "D:\Source\nemowallet_mobile\android\app\NEMOWallet.keystore"
+keytool -list -v -keystore "D:\Source\nemowallet_mobile\android\app\NEMOWallet.keystore" -alias NEMOWallet -storepass 123456 -keypass 123456 
+# Release - Password android
+keytool -list -v -keystore "D:\Source\nemowallet_mobile\android\app\NEMOWalletMobile.keystore" -alias NEMOWalletKey -storepass android -keypass android 

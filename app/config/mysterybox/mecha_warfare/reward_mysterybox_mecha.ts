@@ -1,0 +1,141 @@
+import { type IAssetMysBox } from "../../../common/types";
+
+const cf_rewards_mysterybox_mecha: IAssetMysBox[] = [
+  {
+    symbol: "N81MBOX",
+    reward: [
+      {
+        type: "paladin medal",
+        name: "Paladin Medal (30 days)",
+        ratio: "100%",
+        rarity: "Yellow",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Medal.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion R",
+        rarity: "Blue",
+        ratio: "70%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_R/314.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion SR",
+        rarity: "Violet",
+        ratio: "25%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_SR/409.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion SSR",
+        rarity: "Yellow",
+        ratio: "4%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_SSR/502.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion UR",
+        rarity: "Orange",
+        ratio: "1%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_UR/318.png"),
+      },
+    ],
+  },
+  {
+    symbol: "N81PBOX",
+    reward: [
+      {
+        type: "paladin medal",
+        name: "Paladin Medal (30 days)",
+        ratio: "100%",
+        rarity: "Yellow",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Medal.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion R",
+        rarity: "Blue",
+        ratio: "70%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_R/314.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion SR",
+        rarity: "Violet",
+        ratio: "25%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_SR/409.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion SSR",
+        rarity: "Yellow",
+        ratio: "4%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_SSR/502.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion UR",
+        rarity: "Orange",
+        ratio: "1%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_UR/318.png"),
+      },
+    ],
+  },
+  {
+    symbol: "N81SBOX",
+    reward: [
+      {
+        type: "paladin medal",
+        name: "Paladin Medal (30 days)",
+        ratio: "100%",
+        rarity: "Yellow",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Medal.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion R",
+        rarity: "Blue",
+        ratio: "70%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_R/314.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion SR",
+        rarity: "Violet",
+        ratio: "25%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_SR/409.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion SSR",
+        rarity: "Yellow",
+        ratio: "4%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_SSR/502.png"),
+      },
+      {
+        type: "Hero",
+        name: "Valarion UR",
+        rarity: "Orange",
+        ratio: "1%",
+        amount: "1",
+        image: require("../../../assets/images/images_n69/mysterybox/NFT_Mecha/Valarion_UR/318.png"),
+      },
+    ],
+  },
+];
+
+export default cf_rewards_mysterybox_mecha;

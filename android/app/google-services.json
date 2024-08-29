@@ -1,0 +1,164 @@
+{
+  "project_info": {
+    "project_number": "16867435402",
+    "project_id": "nemoverse-bdd67",
+    "storage_bucket": "nemoverse-bdd67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16867435402:android:75a98885abc128d61b9e73",
+        "android_client_info": {
+          "package_name": "com.galix.city"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16867435402-715mhiia70pc78qhf238b6uljpdlq8cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galix.city",
+            "certificate_hash": "4d20c96f54a8b1b377dfbfa2e6adb8f6ee0d00d7"
+          }
+        },
+        {
+          "client_id": "16867435402-imqv9hl3o5uo0knl0jqmnift6alhp04d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galix.city",
+            "certificate_hash": "80e9b7fe446091b2d128bd8c317e6d1ecede8ceb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_4vE80stJtOwRlf8zaJe-kNyXd_Sl8ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16867435402-cb6ekviecc6scvk01cc23r3t839go10c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16867435402-44e5v6aq7hgqtk444rbp088vdhvebifq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galix.verse",
+                "app_store_id": "6446105753"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16867435402:android:0e39facc9197a13c1b9e73",
+        "android_client_info": {
+          "package_name": "com.nemowallet.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_4vE80stJtOwRlf8zaJe-kNyXd_Sl8ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16867435402-cb6ekviecc6scvk01cc23r3t839go10c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16867435402-44e5v6aq7hgqtk444rbp088vdhvebifq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galix.verse",
+                "app_store_id": "6446105753"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16867435402:android:8726df07a46008af1b9e73",
+        "android_client_info": {
+          "package_name": "com.nemowallet.mobile.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16867435402-m8l3ccoql0ofl6lmk7ju5erjllhadrjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nemowallet.mobile.admin",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_4vE80stJtOwRlf8zaJe-kNyXd_Sl8ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16867435402-cb6ekviecc6scvk01cc23r3t839go10c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16867435402-44e5v6aq7hgqtk444rbp088vdhvebifq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galix.verse",
+                "app_store_id": "6446105753"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16867435402:android:9555bcdc360f6c581b9e73",
+        "android_client_info": {
+          "package_name": "com.nemowallet.mobile.development"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_4vE80stJtOwRlf8zaJe-kNyXd_Sl8ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16867435402-cb6ekviecc6scvk01cc23r3t839go10c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16867435402-44e5v6aq7hgqtk444rbp088vdhvebifq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galix.verse",
+                "app_store_id": "6446105753"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

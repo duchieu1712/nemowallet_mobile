@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "module:react-native-dotenv",
+      {
+        "envName": "NEMOWallet",
+        "moduleName": "@env",
+        "path": ".env"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true,
+    "react-native/react-native": true
+  },
+  "extends": [
+    "standard-with-typescript",
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["react", "react-native", "@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/react-in-jsx-scope": 0,
+    "react/display-name": 0,
+    "react/prop-types": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/member-delimiter-style": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/no-use-before-define": 0,
+    "@typescript-eslint/no-duplicate-enum-values": 0,
+    "@typescript-eslint/no-floating-promises": 0,
+    "@typescript-eslint/strict-boolean-expressions": 0,
+    "promise/param-name": 0,
+    "no-new-object": 0,
+    "@typescript-eslint/no-base-to-string": 0,
+    "@typescript-eslint/no-dynamic-delete": 0,
+    "@typescript-eslint/naming-convention": 0,
+    "array-callback-return": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "n/no-callback-literal": 0,
+    "eqeqeq": 0,
+    "@typescript-eslint/no-misused-promises": 0,
+    "@typescript-eslint/prefer-nullish-coalescing": 0,
+    "@typescript-eslint/no-throw-literal": 0,
+    "no-unsafe-optional-chaining": 0,
+    "promise/param-names": 0,
+    "no-unsafe-finally": 0,
+    "n/handle-callback-err": 0,
+    "@typescript-eslint/restrict-template-expressions": 0,
+    "no-unreachable-loop": 0,
+    "no-async-promise-executor": 0,
+    "@typescript-eslint/restrict-plus-operands": 0,
+    "prefer-promise-reject-errors": 0,
+    "no-empty": 0,
+    "@typescript-eslint/no-extraneous-class": 0,
+
+    // React Hooks
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": 0
+  }
+}
